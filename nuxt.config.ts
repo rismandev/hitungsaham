@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss"],
   css: ["~/assets/css/main.css"],
   app: {
-    baseURL: "/",
+    baseURL: "/hitungsaham/",
     head: {
       title:
         "HitungSaham - Kalkulator & Alat Bantu Perhitungan Saham Terlengkap",
@@ -21,7 +21,7 @@ export default defineNuxtConfig({
 
         // Open Graph / Facebook Meta Tags
         { property: "og:type", content: "website" },
-        { property: "og:url", content: "https://www.hitungSaham.com/" }, // Ganti dengan URL domain Anda
+        { property: "og:url", content: "https://hitungsaham.rismandev.site/" }, // Ganti dengan URL domain Anda
         {
           property: "og:title",
           content:
@@ -34,12 +34,12 @@ export default defineNuxtConfig({
         },
         {
           property: "og:image",
-          content: "https://www.hitungSaham.com/images/og-image.jpg",
+          content: "https://hitungsaham.rismandev.site/images/og-image.jpg",
         }, // Ganti dengan URL gambar OG Anda
 
         // Twitter Meta Tags
         { name: "twitter:card", content: "summary_large_image" },
-        { name: "twitter:url", content: "https://www.hitungSaham.com/" }, // Ganti dengan URL domain Anda
+        { name: "twitter:url", content: "https://hitungsaham.rismandev.site/" }, // Ganti dengan URL domain Anda
         {
           name: "twitter:title",
           content:
@@ -52,7 +52,7 @@ export default defineNuxtConfig({
         },
         {
           name: "twitter:image",
-          content: "https://www.hitungSaham.com/images/twitter-image.jpg",
+          content: "https://hitungsaham.rismandev.site/images/twitter-image.jpg",
         }, // Ganti dengan URL gambar Twitter Anda
 
         // Keywords (optional but can be useful for context)
@@ -71,6 +71,8 @@ export default defineNuxtConfig({
         { rel: "canonical", href: "https://hitungsaham.rismandev.site/" },
       ],
     },
+    buildAssetsDir: "assets",
   },
+  ssr: false,
   devtools: { enabled: false },
 });
