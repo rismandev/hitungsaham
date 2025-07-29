@@ -66,7 +66,10 @@ export default defineNuxtConfig({
         { name: "author", content: "Nama Perusahaan Anda / Nama Anda" },
         { name: "publisher", content: "Nama Perusahaan Anda" },
       ],
-      link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+      link: [
+        { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+        { rel: "canonical", href: "https://hitungsaham.rismandev.site/" },
+      ],
     },
   },
   devtools: { enabled: false },
