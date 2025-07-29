@@ -4,6 +4,7 @@ export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss"],
   css: ["~/assets/css/main.css"],
   app: {
+    baseURL: "/hitungsaham.github.io/",
     head: {
       title:
         "HitungSaham - Kalkulator & Alat Bantu Perhitungan Saham Terlengkap",
@@ -68,5 +69,5 @@ export default defineNuxtConfig({
       link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
     },
   },
-  devtools: { enabled: true },
+  devtools: { enabled: false },
 });
