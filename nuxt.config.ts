@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss"],
   css: ["~/assets/css/main.css"],
   app: {
-    baseURL: "/hitungsaham.github.io/",
+    baseURL: "https://rismandev.site/hitungsaham/",
     head: {
       title:
         "HitungSaham - Kalkulator & Alat Bantu Perhitungan Saham Terlengkap",
