@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Main CSS */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.hide-counter::-webkit-outer-spin-button,
+.hide-counter::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
